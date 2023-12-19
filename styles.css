@@ -1,0 +1,78 @@
+/* Styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffff3c;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    background-color: #0081e9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .introText {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .textbox {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 200px;
+    border: none;
+    border-radius: 40px; /* Round the textbox */
+    background-color: #f4f4f4;
+    font-size: 16px;
+    outline: none; /* Remove focus outline */
+    padding-left: 15px;
+  }
+  
+  .submitButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 40px; /* Round the button */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #45a049;
+  }
+  #textLines {
+    font-family: 'Roboto', sans-serif; /* Update font family here */
+    font-size: 20px; /* Update font size here */
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+/* Animation keyframes */
+@keyframes swirlZoom {
+    0% {
+      transform: scale(0) rotate(0deg);
+    }
+    100% {
+      transform: scale(1) rotate(360deg);
+    }
+  }
+  
+  /* Styles */
+  .hidden {
+    display: none;
+  }
+  
+  #animatedGif {
+    animation: swirlZoom 3s ease-in-out forwards;
+  }
+  
