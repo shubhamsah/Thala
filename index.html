@@ -31,7 +31,7 @@
       var gifContainer = document.getElementById('gifContainer');
       var animatedGif = document.getElementById('animatedGif');
       var numberInput = parseInt(inputText);
-      if (inputText.length === 7 || numberInput%7===0) {
+      if ((inputText.length === 7) || (numberInput % 7 === 0)) {
         gifContainer.classList.remove("hidden");
         textLines.classList.remove("hidden");
         textInput.style.display = "none";
